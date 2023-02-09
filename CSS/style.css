@@ -1,0 +1,63 @@
+* {
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+}
+body { 
+    background-color: #F5E7D7;
+    font-family:'Rosario';
+    font-size: 20px;
+}
+h1 {
+    font-family:'Lobster Two';
+    font-size: 64px;
+    color: #304f46;
+}
+h2 {
+    font-family:'Lobster Two';
+    font-size: 36px;
+    color: #304f46;
+}
+h3 {
+    font-family:'Rosario';
+    font-weight: bold;
+    font-size: 20px;
+    color: #304f46;
+}
+h4 {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+h5 {
+    font-family: 'Rosario';
+    font-weight: bold;
+    font-size: 20px;
+}
+h6 {
+    font-family: 'Rosario';
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h7 {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 24px;
+    color: #6da6ba;
+}
+
+.image {
+    height: 300px;
+    padding: 25px;
+    align-items: right;
+}
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 2%;
+    float: left;
+}
