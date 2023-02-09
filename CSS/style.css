@@ -61,3 +61,6 @@ h7 {
     padding: 2%;
     float: left;
 }
+.jumbotron-fluid {
+    background-color: #6da6ba;
+}
