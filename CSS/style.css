@@ -1,12 +1,13 @@
 * {
-    padding-left: 8px;
-    padding-right: 8px;
-    text-decoration: none;
+   text-decoration: none;
+   padding: 8px;
 }
 body { 
     background-color: #F5E7D7;
     font-family:'Rosario';
     font-size: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 h1 {
     font-family:'Lobster Two';
@@ -42,14 +43,6 @@ h6 {
     font-size: 36px;
 }
 
-h7 {
-    font-family: 'Rosario';
-    font-style: italic;
-    font-weight: 200;
-    font-size: 24px;
-    color: #6da6ba;
-}
-
 .image {
     height: 300px;
     padding: 25px;
@@ -61,6 +54,21 @@ h7 {
     padding: 2%;
     float: left;
 }
-.jumbotron-fluid {
+.jumbotron {
     background-color: #6da6ba;
+}
+
+.accordion {
+    border-radius: 2px;
+    border-color: #304f46;
+}
+
+#summary {
+    background-color: #6da6ba;
+}
+
+#heuristicAnalysis #userPersona #interviews {
+    background-color: rgba(109,166,186,0.8);
+    border-radius: 2px;
+    border-color: #304f46;
 }

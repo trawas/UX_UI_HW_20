@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>UX/UI Homework 20</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lobster Two' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Rosario' rel='stylesheet'>
     
@@ -30,20 +30,83 @@
       </ul>
     
       <!--Introduction using BS4 jumbotron component-->
-      <div class="row">
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-          <img src="images/AdventureBagsMockup.png">
-        </div>
-        <div class="title">
-          <h2 class="display-4">Adventure Bags</h2>
+      <div class="jumbotron">
+        <img src="images/AdventureBagsMockup.png" alt="Adventure Bags website mockup">
+          <h2>Adventure Bags</h2>
           <h4>Nonprofit Website Redesign</h4>
-        </div>
-        <div class="backgroundInfo">
-          <p class="lead">Adventure Bags is a Georgia nonprofit that fills backpacks full of hygienic and fun items for children entering foster care, providing them through a network of first responders and case workers.</p>
-        </div>
-        <div class="problemSolution">
+            <p class="lead">Adventure Bags is a Georgia nonprofit that fills backpacks with hygienic and thoughtful items for children entering foster care, providing them through a network of first responders and case workers.</p>
+          <hr class="my-4">
           <p><b>Problem:</b> Adventure Bags’ website was more than a decade old and consisted of one long page that was hard to navigate. Furthermore, it was not clear how to volunteer for the organization.</p>
           <p><b>Solution:</b> Our redesigned website improves navigability and makes volunteering easy to do from the landing page, while also providing information needed to help donors, volunteers, and first responders learn more about the organization.</p>
+      </div>
+
+      <!--Research section using accordion collapse components-->
+      <h6>Researching & Defining the Problem</h6>
+
+      <div class="accordion" id="research">
+        <div class="card">
+          <div class="card-header" id="summary">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Summary
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="summary" data-parent="#research">
+            <div class="card-body">
+              Summary: A stakeholder interview with the executive director of Adventure Bags  and 1-on-1 interviews with potential volunteers or donors gave us both a sense of the organization’s priorities for a website redesign and of the elements that felt most important to individuals trying to decide whether or not to give their time or money to this organization. We conducted a heuristic analysis of the current Adventure Bags website to determine its strengths and opportunities for improvement. Finally, we conducted a competitive analysis of the websites of other local nonprofit organizations that work with foster families or by providing material resources to children in need. These comparisons helped us consider what Adventure Bags was doing well as well as opportunities for improvement as we began our redesign process.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="interviews">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Interviews
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseTwo" class="collapse show" aria-labelledby="interviews" data-parent="#research">
+            <div class="card-body">
+              We began with an interview with the executive director of Adventure Bags to find out her frustrations with the current website and her hopes for a redesign. She wanted to emphasize the significance of the organizations’ mission to help children in foster care while also encouraging more people to volunteer their time to pack bags. We also conducted 1-on-1 interviews with individuals to determine what motivates them to donate time or money to nonprofit causes, and to assess how much they knew about the foster care system in Georgia.
+              <p><img src="images/communication 1.png"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-header" id="heuristicAnalysis">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Heuristic analysis
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="heuristicAnalysis" data-parent="#research">
+            <div class="card-body">
+              Our heuristic analysis revealed that while the current website employed good use of white space, it was hard to find specific pieces of information. Furthermore,  there was no way for a potential volunteer to find out how to contribute. Styles were mixed and contributed to a jangly feeling.
+              <p><img src="images/AdventureBagsCurrentSite.png"></p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="userPersona">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                User Persona
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="userPersona" data-parent="#research">
+            <div class="card-body">
+              Based on our research, we developed a user persona for a potential Adventure Bags donor and volunteer. Alexandria Bell is an active professional and mother of two who derives satisfaction and a sense of purpose from being highly involved in volunteering her time and donating goods and funds to organizations she cares about. She tends to spread herself a bit thinly, but welcomes opportunities for quick volunteer events that she can do with friends or co-workers. This user persona helped to guide our thinking about design elements that would make supporting Adventure Bags both easy to do and rewarding.
+             <p><img src="images/ABUPAlexandria.png"></p>
+            </div>
+          </div>
         </div>
       </div>
 </body>
