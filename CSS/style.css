@@ -61,6 +61,19 @@ h6 {
     align-content: space-between;
 }
 
+.grid2{
+    display: grid;
+    column-gap: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-areas:
+    "stages" "team" "myRoles" "constraints" "toolsUsed";
+}
+
+.researchTitle {
+    margin-top: 16px;
+}
 .accordion {
     border-radius: 2px;
     border-color: #304f46;
@@ -91,4 +104,12 @@ h6 {
     border-radius: 8px;
     border-color: #304f46;
     border-width: 2px;
+}
+
+.ideatingTitle {
+    margin-top: 16px;
+}
+
+.uiRedesign {
+    padding-top: 24px;
 }
