@@ -89,7 +89,7 @@
         </div>
 
       <!--Research section using accordion collapse components-->
-      <h6>Researching & Defining the Problem</h6>
+      <h6 class="researchTitle">Researching & Defining the Problem</h6>
 
       <div class="accordion" id="research">
         <div class="card">
@@ -168,7 +168,7 @@
       </div>
 
       <!--Ideation section using Bootstrap accordion component-->
-      <h6>Ideating</h6>
+      <h6 class="ideatingTitle">Ideating</h6>
 
       <div class="accordion" id="ideating">
         <div class="card">
@@ -221,8 +221,9 @@
           </div>
         </div>
       </div>
+
 <!--User Interface Redesign Section Using Accordion component-->
-      <h6>UI Redesign</h6>
+      <h6 class="uiRedesign">UI Redesign</h6>
 
       <div class="accordion" id="uiRedesign">
         <div class="card">
@@ -278,11 +279,100 @@
       </div>
 
       <!--Prototyping Section-->
+      <h6 class="prototype">Prototyping</h6>
 
 
+      <!--Testing and Iteration Section Using Accordion Component-->
+      <h6 class="testing">Testing & Iterating</h6>
 
-      <!--Testing and Iteraction Section Using Accordion Component-->
+      <div class="accordion" id="testingIterating">
+        <div class="card">
+          <div class="card-header" id="summary">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                Summary
+              </button>
+            </h2>
+          </div>
 
+          <div id="collapseEleven" class="collapse show" aria-labelledby="summary" data-parent="#testingIterating">
+            <div class="card-body">
+              <b>Summary:</b> We tested our prototype with 5 people, asking them to perform 3 key website tasks. Based on test results and feedback, we modified several elements. We also did A/B testing to determine the placement of the CTA in the hero image.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="iteration1">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                Iteration #1
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseTwelve" class="collapse" aria-labelledby="iteration1" data-parent="#testingIterating">
+            <div class="card-body">
+              On the landing page, “Learn More” changed to “Volunteer with Us” in order to make the CTA stronger.
+              <p><img src="images/ABVolunteerWithUsIteration.png"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-header" id="iteration2">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                Iteration #2
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThirteen" class="collapse" aria-labelledby="iteration2" data-parent="#testingIterating">
+            <div class="card-body">
+              We added explanatory text about how to sign up as a member of an organization, since that process was confusing to several testers.
+              <p><img src="images/VolunteerImageIteration.png"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="iteration3">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                Iteration #3
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFourteen" class="collapse" aria-labelledby="iteration3" data-parent="#testingIterating">
+            <div class="card-body">
+              We created several ways to access the annual report, since that’s an important document for transparency and accountability.  It’s available from the “Who We Are” page and also has a direct link in the “About Us” navigation.
+              <p><img src="images/AnnualReportIteration.png"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Final Prototype-->
+      <h6 class="finalProtoype">Final Prototype</h6>
+
+
+      <!--Final Thoughts and Considerations-->
+      <section id="finalThoughts">
+        <div class="summaryHeadline">
+            <h6>Final Thoughts & Future Considerations</h6>
+        </div>
+        <div class="summaryContent">
+            <p>In this project, we considered both stakeholder needs and the preferences of potential donors and volunteers. We employed information architecture concepts to redesign a sitemap and user flow in order make the process of volunteering or donating to Adventure Bags more intuitive and pleasurable.
+                <p>With more time, we would have liked to incorporate the following:</p>
+                <ul>
+                    <li>More stakeholder feedback for iterations</li>
+                    <li>Gamified volunteering and donation interactions</li>
+                    <li>Animations for the logo and navigation menu</li>
+                </ul>
+        </div>
+    </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
