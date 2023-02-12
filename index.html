@@ -31,13 +31,20 @@
     
       <!--Introduction using BS4 jumbotron component-->
       <div class="jumbotron">
-        <img src="images/AdventureBagsMockup.png" alt="Adventure Bags website mockup">
-          <h2>Adventure Bags</h2>
-          <h4>Nonprofit Website Redesign</h4>
-            <p class="lead">Adventure Bags is a Georgia nonprofit that fills backpacks with hygienic and thoughtful items for children entering foster care, providing them through a network of first responders and case workers.</p>
-          <hr class="my-4">
-          <p><b>Problem:</b> Adventure Bags’ website was more than a decade old and consisted of one long page that was hard to navigate. Furthermore, it was not clear how to volunteer for the organization.</p>
-          <p><b>Solution:</b> Our redesigned website improves navigability and makes volunteering easy to do from the landing page, while also providing information needed to help donors, volunteers, and first responders learn more about the organization.</p>
+        <div class="row">
+          <div class="col-4"><img src="images/AdventureBagsMockup.png" alt="Adventure Bags website mockup"></div>
+          <div class="col-8">
+            <div class="container" id="title">
+              <h2>Adventure Bags</h2>
+              <h4>Nonprofit Website Redesign</h4>
+              <p>Adventure Bags is a Georgia nonprofit that fills backpacks with hygienic and thoughtful items for children entering foster care, providing them through a network of first responders and case workers.</p>
+            </div>
+            <ul class="probSol">
+              <p><b>Problem:</b> Adventure Bags’ website was more than a decade old and consisted of one long page that was hard to navigate. Furthermore, it was not clear how to volunteer for the organization.</p>
+              <p><b>Solution:</b> Our redesigned website improves navigability and makes volunteering easy to do from the landing page, while also providing information needed to help donors, volunteers, and first responders learn more about the organization.</p>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <!--Research section using accordion collapse components-->
@@ -55,7 +62,7 @@
 
           <div id="collapseOne" class="collapse show" aria-labelledby="summary" data-parent="#research">
             <div class="card-body">
-              Summary: A stakeholder interview with the executive director of Adventure Bags  and 1-on-1 interviews with potential volunteers or donors gave us both a sense of the organization’s priorities for a website redesign and of the elements that felt most important to individuals trying to decide whether or not to give their time or money to this organization. We conducted a heuristic analysis of the current Adventure Bags website to determine its strengths and opportunities for improvement. Finally, we conducted a competitive analysis of the websites of other local nonprofit organizations that work with foster families or by providing material resources to children in need. These comparisons helped us consider what Adventure Bags was doing well as well as opportunities for improvement as we began our redesign process.
+              <b>Summary:</b> A stakeholder interview with the executive director of Adventure Bags  and 1-on-1 interviews with potential volunteers or donors gave us both a sense of the organization’s priorities for a website redesign and of the elements that felt most important to individuals trying to decide whether or not to give their time or money to this organization. We conducted a heuristic analysis of the current Adventure Bags website to determine its strengths and opportunities for improvement. Finally, we conducted a competitive analysis of the websites of other local nonprofit organizations that work with foster families or by providing material resources to children in need. These comparisons helped us consider what Adventure Bags was doing well as well as opportunities for improvement as we began our redesign process.
             </div>
           </div>
         </div>
@@ -63,13 +70,13 @@
         <div class="card">
           <div class="card-header" id="interviews">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Interviews
               </button>
             </h2>
           </div>
       
-          <div id="collapseTwo" class="collapse show" aria-labelledby="interviews" data-parent="#research">
+          <div id="collapseTwo" class="collapse" aria-labelledby="interviews" data-parent="#research">
             <div class="card-body">
               We began with an interview with the executive director of Adventure Bags to find out her frustrations with the current website and her hopes for a redesign. She wanted to emphasize the significance of the organizations’ mission to help children in foster care while also encouraging more people to volunteer their time to pack bags. We also conducted 1-on-1 interviews with individuals to determine what motivates them to donate time or money to nonprofit causes, and to assess how much they knew about the foster care system in Georgia.
               <p><img src="images/communication 1.png"></p>
@@ -81,7 +88,7 @@
         <div class="card">
           <div class="card-header" id="heuristicAnalysis">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Heuristic analysis
               </button>
             </h2>
@@ -96,7 +103,7 @@
         <div class="card">
           <div class="card-header" id="userPersona">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 User Persona
               </button>
             </h2>
@@ -105,6 +112,125 @@
             <div class="card-body">
               Based on our research, we developed a user persona for a potential Adventure Bags donor and volunteer. Alexandria Bell is an active professional and mother of two who derives satisfaction and a sense of purpose from being highly involved in volunteering her time and donating goods and funds to organizations she cares about. She tends to spread herself a bit thinly, but welcomes opportunities for quick volunteer events that she can do with friends or co-workers. This user persona helped to guide our thinking about design elements that would make supporting Adventure Bags both easy to do and rewarding.
              <p><img src="images/ABUPAlexandria.png"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="valueStatement">
+        <div class="col-6" id="vsExplain"> 
+          Our value proposition statement for Adventure Bags guided our thinking about the purpose of the website as an extension of Adventure Bags’ mission. 
+        </div>
+        <div class="col-6" id="vs">
+          <h6><span class="value">Adventure Bags</span> is redesigning its website to motivate potential volunteers and donors to <span class="value">build an emotional connection</span>  with children in foster care, so that they will <span class="value">contribute time and money</span> to enable backpacks to be distributed to children in need <span class="value">all throughout Georgia</span>.</h6>
+        </div>
+      </div>
+
+      <!--Ideation section using Bootstrap accordion component-->
+      <h6>Ideating</h6>
+
+      <div class="accordion" id="ideating">
+        <div class="card">
+          <div class="card-header" id="summary">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                Summary
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseFive" class="collapse show" aria-labelledby="summary" data-parent="#ideating">
+            <div class="card-body">
+              <b>Summary:</b> Using an “I like, I wish, What if” matrix helped our team develop ideas, while using a Feature Prioritization matrix with dot voting helped us to narrow our focus. With this in place we created a user scenario for Alexandria and a storyboard describing the way that she connects with Adventure Bags to help lead us into the user interface considerations for the project.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="featurePriority">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Feature Prioritization
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseSix" class="collapse" aria-labelledby="featurePriority" data-parent="#ideating">
+            <div class="card-body">
+              A feature prioritization matrix and dot voting helped us to narrow our focus, which became helping potential volunteers and donors quickly connect to service opportunities while also building an emotional connection for helping children in the foster care system.  We also decided to provide quick access to annual reports in order to assist with financial transparency and helping donors become comfortable with the organization’s use of resources.
+              <p><img src="images/ABfeaturepriority.png"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-header" id="storyboard">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                User Scenario and Storyboard
+              </button>
+            </h2>
+          </div>
+          <div id="collapseSeven" class="collapse" aria-labelledby="storyboard" data-parent="#ideating">
+            <div class="card-body">
+              Both the user scenario and the storyboard describe Alexandria’s first interactions with the Adventure Bags website. Having become aware of foster care through a friend, Alexandria wants to use her company connections to raise money and organize a bag-packing party for Adventure Bags. The ease with which Alexandria is able to act on her impulse to help Adventure Bags’ mission is key to her following-through on helping this organization compared to another.
+              <p><img src="images/ABuserScenario.png"><img src="images/ABstoryboard.png"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--User Interface Redesign Section Using Accordion component-->
+      <h6>UI Redesign</h6>
+
+      <div class="accordion" id="uiRedesign">
+        <div class="card">
+          <div class="card-header" id="summary">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                Summary
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseEight" class="collapse show" aria-labelledby="summary" data-parent="#uiRedesign">
+            <div class="card-body">
+              <b>Summary:</b> With our storyboard and feature prioritization in mind, we performed a card sorting analysis which led to a redesigned site map and user flow. Our goal throughout this process was to make volunteering easy, and to ensure that any element could be retrieved without more than a couple of clicks.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="sitemap">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                Sitemap
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseNine" class="collapse" aria-labelledby="sitemap" data-parent="#uiRedesign">
+            <div class="card-body">
+              Redesigning the sitemap took a few tries, as the original contained so much varied content. As noted above, we realized part of what was initially mapped was really content that shouldn’t be included at this level. Our final sitemap is more streamlined and easier to navigate than the original, as can be seen by the raw card sorting image.
+              <p>Cardsorting<img src="images/ABcardsortOriginal.png">First pass at sitemap<img src="images/ABsitemapOriginal.png"></p>
+              <p>Final sitemap<img src="images/ABsitemapFinal.png"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-header" id="userFlow">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                User Flow
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTen" class="collapse" aria-labelledby="userFlow" data-parent="#uiRedesign">
+            <div class="card-body">
+              Our user flow imagined Alexandria’s process from the moment she landed on the Adventure Bags website to the moment she completed her event sign-up request for her workplace.
+              <p><img src="images/ABuserFlow.png"></p>
             </div>
           </div>
         </div>

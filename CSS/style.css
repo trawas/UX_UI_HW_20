@@ -57,6 +57,9 @@ h6 {
 .jumbotron {
     background-color: #6da6ba;
 }
+#title {
+    align-content: space-between;
+}
 
 .accordion {
     border-radius: 2px;
@@ -71,4 +74,21 @@ h6 {
     background-color: rgba(109,166,186,0.8);
     border-radius: 2px;
     border-color: #304f46;
+}
+
+.value {
+    font-weight: bold;
+    color: #6da6ba;
+}
+
+.probSol {
+    border-radius: 8px;
+    border-color: #304f46;
+    border-width: 2px;
+}
+
+#vsExplain {
+    border-radius: 8px;
+    border-color: #304f46;
+    border-width: 2px;
 }
