@@ -2,6 +2,7 @@
    text-decoration: none;
    padding: 8px;
 }
+
 body { 
     background-color: #F5E7D7;
     font-family:'Rosario';
@@ -136,4 +137,9 @@ h6 {
     border-style: solid;
     margin-bottom: 24px;
     list-style-position: inside;
+}
+.evidence {
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
