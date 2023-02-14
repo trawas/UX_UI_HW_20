@@ -67,9 +67,9 @@ h6 {
     column-gap: 16px;
     padding-left: 5%;
     padding-right: 5%;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-template-areas:
-    "stages" "team" "myRoles" "constraints" "toolsUsed";
+    "team" "myRoles" "constraints" "toolsUsed";
 }
 
 .researchTitle {
@@ -144,6 +144,10 @@ h6 {
     margin-bottom: 16px;
 }
 
+.finalPrototype {
+    flex: content;
+}
 .finalPrototypeMovie {
-    justify-content:  center;
+    padding: 24px 0px;
+    justify-content:  left;
 }

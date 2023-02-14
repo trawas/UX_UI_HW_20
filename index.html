@@ -37,26 +37,20 @@
             <div class="container" id="title">
               <h2>Adventure Bags</h2>
               <h4>Nonprofit Website Redesign</h4>
-              <p>Adventure Bags is a Georgia nonprofit that fills backpacks with hygienic and thoughtful items for children entering foster care, providing them through a network of first responders and case workers.</p>
+              <p> Adventure Bags is a Georgia nonprofit that fills backpacks with hygienic and thoughtful items for children entering foster care, providing them through a network of first responders and case workers.</p>
             </div>
-            <ul class="probSol">
-              <p><b>Problem:</b> Adventure Bags’ website was more than a decade old and consisted of one long page that was hard to navigate. Furthermore, it was not clear how to volunteer for the organization.</p>
-              <p><b>Solution:</b> Our redesigned website improves navigability and makes volunteering easy to do from the landing page, while also providing information needed to help donors, volunteers, and first responders learn more about the organization.</p>
-            </ul>
           </div>
         </div>
       </div>
+              <dl class="row probSol">
+                <dt class="col-sm-3"><b>Problem:</b></dt>
+                <dd class="col-sm-9">Adventure Bags’ website was more than a decade old and consisted of one long page that was hard to navigate. Furthermore, it was not clear how to volunteer for the organization.</dd>
+
+                <dt class="col-sm-3"><b>Solution:</b></dt>
+                <dd class="col-sm-9">Our redesigned website improves navigability and makes volunteering easy to do from the landing page, while also providing information needed to help donors, volunteers, and first responders learn more about the organization.</dd>
+              </dl>
+      
         <div class="grid2">
-          <ul>
-          <h5 class="stages">Stages of the Project:</h5>
-            <li class="line">Research & Defining the Problem</span>
-            <li class="line">Ideating</span>
-            <li class="line">UI Redesign</span>
-            <li class="line">Prototyping</span>
-            <li class="line">Testing & Iterating</span>
-            <li class="line">Final Version</span>
-            <li class="line">Future Thoughts & Considerations</span>
-          </ul>
           <ul>
             <h5 class="team">Team:</h5>
               <li class="line">Tracy Iwaskow</li>
@@ -88,8 +82,34 @@
           </ul>
         </div>
 
+        <!--Navigation using Bootstrap 4 nav system-->
+        <h5 class="stages">Stages of the Project:</h5>
+        <ul class="nav justify-content-start">
+          <li class="nav-item">
+            <a class="nav-link active" href="#researchTitle">Research & Defining the Problem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ideatingTitle">Ideating</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#uiRedesign">UI Redesign</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#prototype">Prototyping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testing">Testing & Iterating</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#finalPrototype">Final Version</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#finalThoughts">Final Thoughts & Future Considerations</a>
+          </li>
+        </ul>
+
       <!--Research section using accordion collapse components-->
-      <h6 class="researchTitle">Researching & Defining the Problem</h6>
+      <h6 class="researchTitle" id="researchTitle">Researching & Defining the Problem</h6>
 
       <div class="accordion" id="research">
         <div class="card">
@@ -168,7 +188,7 @@
       </div>
 
       <!--Ideation section using Bootstrap accordion component-->
-      <h6 class="ideatingTitle">Ideating</h6>
+      <h6 class="ideatingTitle" id="ideatingTitle">Ideating</h6>
 
       <div class="accordion" id="ideating">
         <div class="card">
@@ -223,7 +243,7 @@
       </div>
 
 <!--User Interface Redesign Section Using Accordion component-->
-      <h6 class="uiRedesign">UI Redesign</h6>
+      <h6 class="uiRedesign" id="uiRedesign">UI Redesign</h6>
 
       <div class="accordion" id="uiRedesign">
         <div class="card">
@@ -289,16 +309,18 @@
 
         <div class="container" id="evidence">
           <div class="row">
-            <div class="col-1">Wireframes</div>
-            <div class="col-5"><iframe src="images/Wireframes.mp4" width="480" height="264" style="position:relative" frameBorder="0" class="mp4-embed" allowFullScreen padding="8px"></iframe></div>
-            <div class="col-1">Style Guide</div>   
-            <div class="col-5"><iframe src="https://giphy.com/embed/7IbvNHrD0Dr5B6ZJ5G" width="480" height="264" style="position:relative" frameBorder="0" class="giphy-embed" allowFullScreen padding="8px"></iframe></div>
+            <div class="col-4">Wireframes</div>
+            <div class="col-8"><iframe src="images/Wireframes.mp4" width="480" height="264" style="position:relative" frameBorder="0" class="mp4-embed" allowFullScreen padding="8px"></iframe></div>
+          </div>
+          <div class="row">
+            <div class="col-4">Style Guide</div>   
+            <div class="col-8"><iframe src="https://giphy.com/embed/7IbvNHrD0Dr5B6ZJ5G" width="480" height="264" style="position:relative" frameBorder="0" class="giphy-embed" allowFullScreen padding="8px"></iframe></div>
           </div>
         </div>
       </section>
   
       <!--Testing and Iteration Section Using Accordion Component-->
-      <h6 class="testing">Testing & Iterating</h6>
+      <h6 class="testing" id="testing">Testing & Iterating</h6>
 
       <div class="accordion" id="testingIterating">
         <div class="card">
@@ -369,13 +391,21 @@
       </div>
 
 
-      <!--Final Prototype-->
-      <h6 class="finalProtoype">Final Prototype</h6>
-      <div class="mx-auto finalProtoypeMovie">
-        <iframe src="images/adventureBagsFinalPrototype.mp4" width="480" height="264" style="position:absolute" frameBorder="0" class="mp4-embed" allowFullScreen></iframe>
-      </div>
-      <a href="https//www.figma.com/proto/0U3iuOY2zSohG2ESl7tX3q/Adventure-Bags-Non-Profit?page-id=57%3A2&node-id=85%3A1770&viewport=858%2C281%2C0.06&scaling=scale-down&starting-point-node-id=85%3A1770">Link to prototype</a>
-
+      <!--Final Prototype using Bootstrap 4 col system-->
+      <section class="finalProtoype" id="finalPrototype">
+        <h6>Final Prototype</h6>
+            <p>Our final prototype features quick and easy ways to help Adventure Bags fulfill its mission. Potential volunteers can are invited to learn more about the organization's impact and history while being directed toward getting involved.</p>
+            <div class="container">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="embed-responsive embed-responsive16by9" id="finalProtoypeMovie"></div>
+                   <iframe class="embed-responsive-item" src="images/adventureBagsFinalPrototype.mp4" frameBorder="0" allowFullScreen></iframe>
+                </div>
+              </div>
+              <div id="figmaPrototype">
+                <a href="https//www.figma.com/proto/0U3iuOY2zSohG2ESl7tX3q/Adventure-Bags-Non-Profit?page-id=57%3A2&node-id=85%3A1770&viewport=858%2C281%2C0.06&scaling=scale-down&starting-point-node-id=85%3A1770">Link to prototype</a>
+              </div>
+            </div>
+      </section>
 
     <!--Final Thoughts and Considerations-->
       <section id="finalThoughts">
